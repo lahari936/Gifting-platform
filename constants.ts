@@ -1,0 +1,86 @@
+
+import { Product, Occasion } from './types';
+
+export const OCCASIONS: Occasion[] = [
+  { id: 'all', name: 'All Gifts', emoji: '🎁' },
+  { id: 'birthday', name: 'Birthday', emoji: '🎂' },
+  { id: 'anniversary', name: 'Anniversary', emoji: '💖' },
+  { id: 'thank-you', name: 'Thank You', emoji: '🙏' },
+  { id: 'congrats', name: 'Congrats', emoji: '🎉' },
+  { id: 'housewarming', name: 'Housewarming', emoji: '🏡' },
+];
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'Artisanal Soy Candle',
+    seller: 'The Cozy Corner',
+    price: 25,
+    imageUrl: 'https://picsum.photos/id/106/400/400',
+    description: 'A hand-poured soy wax candle with notes of lavender and chamomile. Perfect for creating a relaxing atmosphere.',
+    occasion: ['thank-you', 'housewarming', 'birthday'],
+  },
+  {
+    id: 2,
+    name: 'Gourmet Chocolate Box',
+    seller: 'Sweet Delights',
+    price: 40,
+    imageUrl: 'https://picsum.photos/id/431/400/400',
+    description: 'An exquisite selection of 12 handcrafted dark, milk, and white chocolates with unique fillings.',
+    occasion: ['anniversary', 'thank-you', 'birthday'],
+  },
+  {
+    id: 3,
+    name: 'Personalized Leather Journal',
+    seller: 'Ink & Thread',
+    price: 55,
+    imageUrl: 'https://picsum.photos/id/24/400/400',
+    description: 'A beautiful, high-quality leather journal that can be monogrammed for a personal touch.',
+    occasion: ['congrats', 'birthday'],
+  },
+  {
+    id: 4,
+    name: 'Lush Succulent Garden',
+    seller: 'Green Thumbs',
+    price: 35,
+    imageUrl: 'https://picsum.photos/id/152/400/400',
+    description: 'A low-maintenance arrangement of beautiful succulents in a stylish ceramic pot.',
+    occasion: ['housewarming', 'congrats', 'thank-you'],
+  },
+  {
+    id: 5,
+    name: 'Cashmere Throw Blanket',
+    seller: 'The Cozy Corner',
+    price: 120,
+    imageUrl: 'https://picsum.photos/id/365/400/400',
+    description: 'Incredibly soft and luxurious, this pure cashmere throw is the ultimate comfort gift.',
+    occasion: ['anniversary', 'housewarming'],
+  },
+  {
+    id: 6,
+    name: 'Craft Cocktail Kit',
+    seller: 'The Spirited Mix',
+    price: 65,
+    imageUrl: 'https://picsum.photos/id/102/400/400',
+    description: 'Everything needed to craft two delicious old-fashioned cocktails, just add whiskey.',
+    occasion: ['congrats', 'birthday', 'anniversary'],
+  },
+  {
+    id: 7,
+    name: 'Minimalist Gold Necklace',
+    seller: 'Adorn & Co.',
+    price: 85,
+    imageUrl: 'https://picsum.photos/id/464/400/400',
+    description: 'A delicate 14k gold-plated necklace with a simple, elegant pendant. Timeless and versatile.',
+    occasion: ['anniversary', 'birthday'],
+  },
+  {
+    id: 8,
+    name: 'Specialty Coffee Sampler',
+    seller: 'The Daily Grind',
+    price: 30,
+    imageUrl: 'https://picsum.photos/id/312/400/400',
+    description: 'A curated selection of four unique single-origin coffee beans from around the world.',
+    occasion: ['thank-you', 'housewarming', 'birthday'],
+  },
+];

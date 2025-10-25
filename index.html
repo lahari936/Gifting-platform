@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-g">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIVORA - Boutique Gifting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'givora-pink': '#F8D6E0',
+            'givora-purple': '#EAD3FF',
+            'givora-orange': '#FFD6A5',
+            'givora-charcoal': '#333333',
+          },
+          fontFamily: {
+            'playfair': ['"Playfair Display"', 'serif'],
+            'montserrat': ['"Montserrat"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 font-montserrat text-givora-charcoal">
+  <div id="root"></div>
+</body>
+</html>
